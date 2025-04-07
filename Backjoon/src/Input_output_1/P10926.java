@@ -1,7 +1,6 @@
-package Input_Output;
+package Input_output_1;
 
 import java.io.*;
-import java.util.Scanner;
 
 /*
 * 백준 10926번 : ??!

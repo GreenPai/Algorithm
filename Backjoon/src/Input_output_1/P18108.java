@@ -1,9 +1,6 @@
-package Input_Output;
-
-import org.w3c.dom.ls.LSOutput;
+package Input_output_1;
 
 import java.io.*;
-import java.util.Scanner;
 
 /*
 * 백준 18108번 : 1998년생인 내가 태국에서는 2541년생?

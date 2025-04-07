@@ -1,12 +1,9 @@
-package Input_Output;
+package Input_output_1;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
-public class AB_1000 {
+public class AB_1001 {
     public static void main(String[] args) throws IOException {
 
         // BufferedReader
@@ -21,13 +18,13 @@ public class AB_1000 {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int n1 = Integer.parseInt(st.nextToken());
             int n2 = Integer.parseInt(st.nextToken());
-            System.out.println(n1 + n2);
+            System.out.println(n1 - n2);
         */
 
         //
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        System.out.println(n + m);
+        System.out.println(n - m);
     }
 }
