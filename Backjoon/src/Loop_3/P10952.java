@@ -6,19 +6,25 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /*
-* 백준 : 11022번 / A+B-8
+* 백준 10952 / A + B - 5
+* 메모리 : 14224KB
+* 속도   : 112ms
 * */
-public class P11022 {
+public class P10952 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in)) ;
-        StringTokenizer st;
+        while(true){
+            StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int n = Integer.parseInt(br.readLine());
-        for(int i=1; i<= n; i++){
-            st = new StringTokenizer(br.readLine());
             int n1 = Integer.parseInt(st.nextToken());
             int n2 = Integer.parseInt(st.nextToken());
-            System.out.println("Case #" + i + ": " + n1 + " + " + n2 + " = " + (n1+n2));
+
+            if(n1 == 0 && n2 == 0){
+                break;
+            }
+
+            System.out.println(n1 + n2);
         }
     }
+
 }
